@@ -1,0 +1,299 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "notes",
+    "dateExported": "2024-01-16T06:54:11.322Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c9abacd3-ac8d-4095-8916-c75b3e84468b",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "localhost:3000/api/auth/signup",
+            "url": "https://chy-5cjs.onrender.com/api/auth/signup",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-09T07:49:19.745Z",
+            "modified": "2023-09-20T15:49:43.003Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"opooio\",\n  \"email\": \"oytioy@mail.com\",\n  \"password\": \"dddddd\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f6d4e3a8-decc-4f81-a39a-2705a56581b9",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "create chat",
+            "url": "localhost:4000/api/chat",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2023-06-11T09:48:00.296Z",
+            "modified": "2023-09-20T12:12:48.241Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY4NjQ3NzA4MX0.M42tMhcyt-KgGEcp2R9VxnBmVaDDXo-JWxq5qsPyK-Y"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userId\":\"6471b108413f1a4cc1f33c5e\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1c9d4203-7b33-43a9-8edd-1ed4fdad1159",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "send message",
+            "url": "localhost:4000/api/message/",
+            "method": "POST",
+            "sortNum": 37500,
+            "created": "2023-06-14T05:32:20.314Z",
+            "modified": "2023-08-23T16:25:00.296Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY4NjcyMTMyOH0.cfxjaFeG-LCIBpFGeeyQ5RaR1RsAmVYWwPLlVSTpeQc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"first Message\",\n  \"chatId\": \"64e63272185cc05eb1676dc2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "768a18fb-10ff-41fa-bc97-81ff8db42282",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "localhost:3000/api/notes/updatenote/id",
+            "url": "localhost:3000/api/notes/updatenote/648954613d9f37accf6472aa",
+            "method": "PUT",
+            "sortNum": 38750,
+            "created": "2023-06-14T06:35:38.441Z",
+            "modified": "2023-06-14T06:40:43.626Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY4NjcyMTMyOH0.cfxjaFeG-LCIBpFGeeyQ5RaR1RsAmVYWwPLlVSTpeQc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"updated\",\n  \"description\": \"A newupdate\",\n  \"tag\": \"bs\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "93c23b54-689b-4f02-9226-ed242da150f1",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "localhost:3000/api/notes/dletenote/id",
+            "url": "localhost:3000/api/notes/deletenote/648954613d9f37accf6472aa",
+            "method": "DELETE",
+            "sortNum": 39375,
+            "created": "2023-06-14T13:49:22.869Z",
+            "modified": "2023-06-14T13:50:40.986Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY4NjcyMTMyOH0.cfxjaFeG-LCIBpFGeeyQ5RaR1RsAmVYWwPLlVSTpeQc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "720c968c-0056-448d-89ee-fc3450062355",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "localhost:3000/api/auth/signin",
+            "url": "http://localhost:4000/api/auth/signin",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-06-09T07:49:28.870Z",
+            "modified": "2023-09-20T11:48:35.078Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"email@llll.com\",\n  \"password\": \"ssssss\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "27ba9949-a355-46d8-adee-c0b20c751a64",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "localhost:3000/api/auth/getuser",
+            "url": "http://localhost:4000/api/auth?search=s",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-06-09T07:55:41.081Z",
+            "modified": "2023-09-20T11:51:48.614Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5NTIxMDUxNX0.RSJ47D3dImDVdnHCISvDJnBr5lQZgmxXGXjmPr6RfpE"
+                }
+            ],
+            "params": [
+                {
+                    "name": "search",
+                    "value": "s",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "50e3045c-7311-459b-b89c-4540feccd094",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "create grouop chat",
+            "url": "localhost:4000/api/chat/group",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-08-19T15:48:29.331Z",
+            "modified": "2023-08-23T04:45:27.615Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"alh\",\n  \"users\": \"[\\\"646f495f5c2355ddee28cd5d\\\",\\\"646f486185105da1a1d4cce6\\\"]\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1d793196-1101-48ee-8f86-375446c83b48",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "remove member from group",
+            "url": "localhost:4000/api/chat/removeMember",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-08-21T06:04:14.428Z",
+            "modified": "2023-08-21T06:04:14.428Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5MjI4MjI4Nn0.BHIs21AVdpWDNdb8IQ_Nxr4-xCnZH-qTVdqybfqBH4E"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"chatId\": \"64de45355916e400b4cdc223\",\n  \"userId\": \"64d897dac096d17f0d1c30f4\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "05c2ebea-0ae7-4809-b42c-384c9f37bda3",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "addMember",
+            "url": "localhost:4000/api/chat/addMember",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-08-21T06:05:10.080Z",
+            "modified": "2023-08-21T06:05:10.080Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5MjI4MjI4Nn0.BHIs21AVdpWDNdb8IQ_Nxr4-xCnZH-qTVdqybfqBH4E"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"chatId\": \"64de45355916e400b4cdc223\",\n  \"userId\": \"64d897dac096d17f0d1c30f4\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5923e26b-2db2-4f54-b7f3-9ccf27d20fee",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "get chats of one user",
+            "url": "localhost:4000/api/chat",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-08-21T06:09:43.171Z",
+            "modified": "2023-08-21T06:09:43.171Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5MjI4MjI4Nn0.BHIs21AVdpWDNdb8IQ_Nxr4-xCnZH-qTVdqybfqBH4E"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0f0c233a-266e-4914-b7d0-198bb3aadffe",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "get chats of user",
+            "url": "localhost:4000/api/chat",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-08-21T14:05:05.775Z",
+            "modified": "2023-08-21T14:05:05.775Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5MjI4MjI4Nn0.BHIs21AVdpWDNdb8IQ_Nxr4-xCnZH-qTVdqybfqBH4E"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "44afd26b-80b3-4eba-8c33-c2dc0884983a",
+            "colId": "5a6e4dad-11c7-4829-a088-4a71cc04f165",
+            "containerId": "",
+            "name": "get chats of user Copy",
+            "url": "localhost:4000/api/message/64e63272185cc05eb1676dc2",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-08-24T04:36:12.684Z",
+            "modified": "2023-08-24T04:39:57.363Z",
+            "headers": [
+                {
+                    "name": "auth-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjQ3MWIxMDg0MTNmMWE0Y2MxZjMzYzVlIn0sImlhdCI6MTY5MjI4MjI4Nn0.BHIs21AVdpWDNdb8IQ_Nxr4-xCnZH-qTVdqybfqBH4E"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
